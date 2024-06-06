@@ -1,0 +1,67 @@
+package com.techcruz.arappformonuments;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class five_religious extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_five_religious);
+        TextView content;
+        TextView a,b,c,d,e;
+        a= findViewById(R.id.brihadeswara);
+        b= findViewById(R.id.lotustemp);
+        c= findViewById(R.id.ayodhaya);
+        d= findViewById(R.id.buddha);
+        e= findViewById(R.id.jesus);
+        content= findViewById(R.id.content_text);
+
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                content.setText(" The Brihadeeswara temple is called Peruvudaiyar Koyil or Thanjavur Kovil. It was built under Raja Raja Chola, a Chola emperor ruling over ancient Tamil Nadu. It is a 1000 years old temple,at 216 feet at its highest point and carved completely of granite, it took 12 years to complete. It was finished in 1011 AD and is dedicated to Shiva.There’s no granite to be found anywhere nearby–not for at least 50 miles.The temple is formed of 130,000 tons of it, often huge giant pieces of it that would be impossible for any human to move. There is no binding material, only interlocking stone–something never found in tall buildings today.It took more than 1,000 elephants to haul large slabs of granite to Thanjavur from 50 miles away. To cut the rocks, workers used an ingenious method of ancient engineering.The Mahalingam—the stone on top of the tower—weighs 80 tons and measures 23 feet around and 9 feet high.Without cranes, a long ramp was made leading up to the tower, and elephants hauled the stone up to the top, assisted by men with ropes.  There are three gates but only two elaborate Gopurams. The first one is more like a fort gate that was built by the Marathas to defend the place. It was connected to the moat that surrounded the Temple. It is the 2nd gate – Keralantakan Tiruvasal and the 3rd gate – Rajarajan Tiruvasal.\n" +
+                        " \n" +
+                        "      ब्रिहाडेसवारा मंदिर को पेरूवुदयार कोयल या तंजावुर कोविल कहा जाता है. यह राजा राजा चोला के अधीन बनाया गया था, जो प्राचीन तमिलनाडु पर शासन करने वाला एक चोला सम्राट था. यह एक 1000 साल पुराना मंदिर है, इसके उच्चतम बिंदु पर 216 फीट और पूरी तरह से ग्रेनाइट की नक्काशी की गई है, इसे पूरा होने में 12 साल लग गए. यह 1011 ईस्वी में समाप्त हो गया था और शिव को समर्पित है। कहीं भी कोई ग्रेनाइट नहीं पाया जा सकता है – कम से कम 50 मील के लिए नहीं। मंदिर 130,000 टन से बना है, अक्सर इसके विशाल विशाल टुकड़े जो किसी भी मानव के लिए स्थानांतरित करना असंभव होगा. कोई बाध्यकारी सामग्री नहीं है, केवल इंटरलॉकिंग स्टोन – आज ऊंची इमारतों में कुछ भी नहीं मिला है। यह 50 मील दूर से तंजावुर के लिए ग्रेनाइट के बड़े स्लैब को ढोना करने के लिए 1,000 से अधिक हाथियों को ले गया. चट्टानों को काटने के लिए, श्रमिकों ने प्राचीन इंजीनियरिंग की एक सरल विधि का उपयोग किया। महलिंगम — टॉवर के शीर्ष पर स्थित पत्थर — 80 टन वजन और 23 फीट चारों ओर और 9 फीट ऊंचे क्रेन के साथ मापता है, एक लंबे रैंप को टॉवर तक ले जाया गया था, और हाथियों ने पत्थर को ऊपर तक फेंक दिया, रस्सियों के साथ पुरुषों द्वारा सहायता प्रदान की गई.  तीन द्वार हैं लेकिन केवल दो विस्तृत गोपुरम हैं. पहले एक किले के गेट की तरह है जो जगह की रक्षा के लिए मराठों द्वारा बनाया गया था. यह मंदिर को घेरने वाले खंदक से जुड़ा था. यह दूसरा गेट – केरलानटकन तिरुवासल और तीसरा गेट – राजराजन तिरुवासल है.\n");
+            }
+        });
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+                    public void onClick(View view) {
+                content.setText(" Lotus temple is popularly also known as The Baha’i House of Worship. It is designed to reflect the simplicity, clarity and freshness of the Baha'i Faith and to act as a symbol of the unity of mankind and religions. It was designed by Iranian architect Fariborz Sahba, The design of the temple has half opened lotus flower with 27 freestanding ‘petals’ made of marble. These 27 petals are composed of three ranks of nine petals.The nine arches with 27 petals support the central hall of the Temple. There are nine reflecting pools surrounding the building on the outside.The entire structure is made of white marble to show the purity, peace, and glory of the Bahai temple.The Bahai temple hall has a capacity of 2500 people and the total occupied area is 26 acres. Nearly four million people around the world visiting every year means 10000 people for a day. The constructed marbles were brought from Penteli Mountains in Greece. There are seven worshiping Bahai temples all over the world. They are in New Delhi, India. Kampala in Uganda, Frankfurt in Germany, Wilmette in the USA, Apia in Western Samoa, Panama City in Panama and Sydney in Australia.\n" +
+                        "लोटस मंदिर को लोकप्रिय रूप से द बहाई हाउस ऑफ उपासना के रूप में भी जाना जाता है. यह बहाई आस्था की सादगी, स्पष्टता और ताजगी को प्रतिबिंबित करने और मानव जाति और धर्मों की एकता के प्रतीक के रूप में कार्य करने के लिए बनाया गया है. यह ईरानी वास्तुकार फारिबोर्ज़ साहबा द्वारा डिजाइन किया गया था, मंदिर के डिजाइन में संगमरमर से बने 27 फ्रीस्टैंडिंग ‘ पंखुड़ियों ’ के साथ आधा खुला कमल का फूल है. ये 27 पंखुड़ियाँ नौ पंखुड़ियों के तीन रैंकों से बनी होती हैं। 27 पंखुड़ियों वाले नौ मेहराब मंदिर के केंद्रीय हॉल का समर्थन करते हैं. बाहर की इमारत के आसपास नौ प्रतिबिंबित पूल हैं। पूरी संरचना पवित्रता, शांति दिखाने के लिए सफेद संगमरमर से बनी है, और बहाई मंदिर की महिमा। बहाई मंदिर हॉल में 2500 लोगों की क्षमता है और कुल कब्जे वाला क्षेत्र 26 एकड़ है. हर साल दुनिया भर में आने वाले लगभग चार मिलियन लोगों का मतलब है एक दिन के लिए 10000 लोग. निर्मित पत्थर ग्रीस में पेंटेली पर्वत से लाए गए थे. दुनिया भर में सात पूजा बहाई मंदिर हैं. वे नई दिल्ली, भारत में हैं. युगांडा में कंपाला, जर्मनी में फ्रैंकफर्ट, यूएसए में विल्मेट, पश्चिमी समोआ में एपिया, पनामा में पनामा सिटी और ऑस्ट्रेलिया में सिडनी.\n");
+                    }
+                });
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                content.setText("Ram Mandir is a Hindu temple that is being built in Ayodhya, Uttar Pradesh, India, at the site of Ram Janmabhoomi, according to the Ramayana the birthplace of Rama, a principal deity of Hinduism.The temple construction is being supervised by the Shri Ram Janmabhoomi Teerth Kshetra. The ground-breaking ceremony was performed on 5 August 2020 by India’s prime minister Narendra Modi. The temple premises will include temples dedicated to deities Surya, Ganesha, Shiva, Durga, Vishnu and Brahma.The original design for the Ram temple was prepared in 1988 by the Sompura family of Ahmedabad.A new design, with some changes from the original, was prepared by the Sompuras in 2020, in accordance with vastu shastra and the shilpa shastras.The temple will is 235 feet wide, 360 feet long and 161 feet high. The temple complex will be the world's third largest Hindu shrine.\n" +
+                        "राम मंदिर एक हिंदू मंदिर है जो राम जनभूमि के जन्मस्थान रामायण के अनुसार, भारत के उत्तर प्रदेश के अयोध्या में बनाया जा रहा है, हिंदू धर्म का एक प्रमुख देवता। मंदिर निर्माण की देखरेख श्री राम जनमोभूमि तीर्थ क्षत्र द्वारा की जा रही है. 5 अगस्त 2020 को भारत के प्रधान मंत्री नरेंद्र मोदी द्वारा ग्राउंड-ब्रेकिंग समारोह किया गया था. मंदिर परिसर में देवताओं को समर्पित मंदिर सूर्य, गणेश, शिव, दुर्गा शामिल होंगे, विष्णु और ब्रह्मा। राम मंदिर के लिए मूल डिजाइन 1988 में अहमदाबाद के सोमपुरा परिवार द्वारा तैयार किया गया था। मूल से कुछ बदलावों के साथ, नया डिजाइन, 2020 में सोमपुरस द्वारा तैयार किया गया था, विशाल शास्त्र और शिल्प शास्त्र के अनुसार। मंदिर 235 फीट चौड़ा, 360 फीट लंबा और 161 फीट ऊंचा होगा. मंदिर परिसर दुनिया का तीसरा सबसे बड़ा हिंदू मंदिर होगा.\n");
+            }
+        });
+               d.setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+                       content.setText("The word ‘Buddha’ is a title, which means ‘one who is awake’ — in the sense of having ‘woken up to reality’. The Buddha was born as Siddhartha Gautama in Nepal around 2,500 years ago. He did not claim to be a god or a prophet. He was a human being who became Enlightened, understanding life in the deepest way possible. He renounced his princely life, spent six years studying doctrines and undergoing yogic austerities. He then gave up ascetic practices for normal life. He spent seven weeks in the shade of a Bodhi tree until, finally, one night toward dawn, enlightenment came. Then he preached sermons and embarked on missionary travels for 45 years. He affected the lives of thousands high and low. At the age of 80 he experienced his parinirvana extinction itself.The literature inspired by the Buddha's story is as varied as those who have told it in the last 2500 years. To the first of his followers, and the tradition associated with Theravada Buddhism and figures like the great Emperor Ashoka, the Buddha was a man, not a God. He was a teacher, not a savior. The Buddha died in 483 B.C.E., after 45 years of traveling and teaching. Upon his death, the Buddha passed into a state of nirvana, the ultimate release from suffering in which the self no longer exists and salvation is achieved. Included in his last breaths were four words of inspiration: \"Strive on with awareness.\" And his followers did.\n" +
+                               "शब्द ‘ बुद्ध ’ एक शीर्षक है, जिसका अर्थ है ‘ जो जाग रहा है ’ — होने के अर्थ में ‘ वास्तविकता के लिए जाग गया ’. बुद्ध का जन्म लगभग 2,500 साल पहले नेपाल में सिद्धार्थ गौतम के रूप में हुआ था. उसने भगवान या पैगंबर होने का दावा नहीं किया. वह एक इंसान था जो प्रबुद्ध हो गया, जीवन को सबसे गहरे तरीके से समझ रहा था. उन्होंने अपने राजसी जीवन को त्याग दिया, छह साल सिद्धांतों का अध्ययन करने और योगिक तपस्या से गुजरने में बिताए. फिर उन्होंने सामान्य जीवन के लिए तपस्वी प्रथाओं को छोड़ दिया. उन्होंने बोधि वृक्ष की छाया में सात सप्ताह बिताए, आखिरकार, एक रात भोर की ओर, आत्मज्ञान आया. फिर उन्होंने उपदेश दिया और 45 वर्षों तक मिशनरी यात्रा पर रहे. उन्होंने हजारों उच्च और निम्न के जीवन को प्रभावित किया. 80 वर्ष की आयु में उन्होंने अपने परिनिवाना विलुप्त होने का अनुभव किया। बुद्ध की कहानी से प्रेरित साहित्य उन लोगों की तरह विविध है जिन्होंने पिछले 2500 वर्षों में इसे बताया है. अपने अनुयायियों में से पहले, और थेरवाद बौद्ध धर्म से जुड़ी परंपरा और महान सम्राट अशोक जैसे आंकड़े, बुद्ध एक व्यक्ति थे, भगवान नहीं. वह एक शिक्षक था, उद्धारकर्ता नहीं. यात्रा और शिक्षण के 45 वर्षों के बाद, बुद्ध की मृत्यु 483 ईसा पूर्व में हुई. उनकी मृत्यु के बाद, बुद्ध निर्वाण की स्थिति में चले गए, दुख से अंतिम विमोचन जिसमें स्वयं अब मौजूद नहीं है और मोक्ष प्राप्त होता है. उनकी अंतिम सांसों में शामिल थे प्रेरणा के चार शब्द: \"जागरूकता के साथ प्रयास करें.\" और उनके अनुयायियों ने किया.\n");
+                   }
+               });
+                e.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        content.setText("The Basilica of Bom Jesus is a monument typical of the classic forms of plane architecture, introduced by the Society of Jesus, otherwise known as the Jesuits. The façade, which is of granite, represents features of five styles of architecture: Roman, Ionic, Doric, Corinthian and Composite. It is a large single Nave structure built ( 1595-1605) and paid for with legacies left by Dom Jeronimo Mascarenhas, a wealthy Portuguese Captain of Cochin.The retable of the main altar exhibits a huge statue of Saint Ignatius of Loyola, the founder (along with St. Francis Xavier who was a founding member) of the Society of Jesus and below it, a small image of Bom Jesus (Child Jesus), the patron of the church.On the southern side of the transept lies the Chapel of St. Francis Xavier. This chapel has carved and gilded columns and wood-carved floral decorations. This is where the relics of the saint are kept.The Basilica also contains a modern art gallery with paintings depicting various Biblical scenes.  \n" +
+                                "  बेसिलिका ऑफ बोम जीसस, सोसाइटी ऑफ जीसस द्वारा शुरू किए गए विमान वास्तुकला के क्लासिक रूपों का एक विशिष्ट स्मारक है, जिसे जेसुइट्स के रूप में जाना जाता है. अग्रभाग, जो ग्रेनाइट का है, वास्तुकला की पांच शैलियों की विशेषताओं का प्रतिनिधित्व करता है: रोमन, आयनिक, डोरिक, कोरिंथियन और समग्र. यह एक बड़ा एकल गुफा संरचना है जिसे ( 1595-1605 ) बनाया गया है और डोम जेरोनिमो मस्कारेन्हास द्वारा छोड़ी गई विरासत के लिए भुगतान किया गया है, कोचीन का एक धनी पुर्तगाली कैप्टन। मुख्य वेदी के पीछे हटने वाले सेंट इग्नाटियस की एक विशाल प्रतिमा का प्रदर्शन करते हैं, जो सेंट के साथ संस्थापक ( है. फ्रांसिस ज़ेवियर जो यीशु के समाज के संस्थापक सदस्य ) थे और इसके नीचे, बॉम जीसस की एक छोटी छवि ( चाइल्ड जीसस ), चर्च के संरक्षक। ट्रेन्सेप्ट के दक्षिणी किनारे पर चैपल ऑफ सेंट स्थित है. फ्रांसिस जेवियर. इस चैपल में नक्काशीदार और सोने के स्तंभ और लकड़ी से नक्काशीदार फूलों की सजावट है. यह वह जगह है जहां संत के अवशेष रखे जाते हैं। बेसिलिका में विभिन्न बाइबिल दृश्यों को चित्रित करने वाली पेंटिंग के साथ एक आधुनिक आर्ट गैलरी भी है.  \n");
+                    }
+                });
+
+
+
+
+
+    }
+}

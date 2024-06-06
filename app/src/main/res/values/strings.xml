@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AR APP FOR MONUMENTS</string>
+    <string name="title_activity_forthmaps">forthmaps</string>
+    <string name="title_activity_fourthreligious">fourthreligious</string>
+    <string name="title_activity_fourthstatue">fourthstatue</string>
+    <string name="title_activity_fourthunesco">fourthunesco</string>
+    <string name="title_activity_forthmemorial">forthmemorial</string>
+    <string name="title_activity_fourtharchae">fourtharchae</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+</resources>

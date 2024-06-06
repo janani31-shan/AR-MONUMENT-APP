@@ -1,0 +1,14 @@
+erride
+10    protected void onCreate(Bundle savedInstanceState) {
+11
+12       Button myButton = findViewById(R.id.button2);
+13       myButton.setOnClickListener(new View.OnClickListener() {
+14        @Override
+15        public void onClick(View v) {
+16            System.out.println("Button Clicked!");
+17          }
+18       });
+19
+20       setContentView(R.layout.activity_main);
+21        super.onCreate(savedInstanceState);
+    }

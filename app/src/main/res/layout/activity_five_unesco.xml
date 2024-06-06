@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:scrollbars="horizontal"
+tools:context=".five_unesco"
+tools:ignore="ScrollViewCount">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/relay"
+    android:layout_marginBottom="25dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/fib"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_top"
+        android:backgroundTint="#3F51B5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="UNESCO"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/fib"
+        android:id="@+id/scrollsw"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/fib"
+            android:layout_height="match_parent">
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/gridview"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:backgroundTint="#8696FC"
+                    android:background="@drawable/content_red"
+                    android:padding="15dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/fib1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tajmahal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:text="Taj Mahal"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/content_red"
+                    android:backgroundTint="#8696FC"
+                    android:padding="15dp"
+                    android:id="@+id/fib2"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/fib1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/qutubminar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:text="Qutub Minar"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/content_red"
+                    android:backgroundTint="#8696FC"
+                    android:padding="15dp"
+                    android:id="@+id/fib3"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/fib2"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/elloracave"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:textSize="20dp"
+                        android:text="Ellora cave">
+                    </TextView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/content_red"
+                    android:backgroundTint="#8696FC"
+                    android:padding="15dp"
+                    android:id="@+id/fib4"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/fib3"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/brihadeswara"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:textSize="20dp"
+                        android:text="Brihadeshwara temple">
+                    </TextView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/content_red"
+                    android:backgroundTint="#8696FC"
+                    android:padding="15dp"
+                    android:id="@+id/fib5"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/fib4"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jesus"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:textSize="20dp"
+                        android:text="Basilica of bom jesus">
+                    </TextView>
+                </RelativeLayout>
+            </GridLayout>
+
+
+        </RelativeLayout>
+
+
+    </HorizontalScrollView>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/scrollsw"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/scrollsw"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/content_text"
+            android:fontFamily="@font/mclaren"
+            android:text="">
+        </TextView>
+    </ScrollView>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnarc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AR"
+        tools:ignore="NotSibling"></Button>
+</RelativeLayout>
+</RelativeLayout>

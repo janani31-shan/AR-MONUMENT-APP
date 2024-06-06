@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576690770089",
+    "project_id": "ar-app-for-monuments",
+    "firebase_url": "https://console.firebase.google.com/project/ar-app-for-monuments/storage/ar-app-for-monuments.appspot.com/files",
+    "storage_bucket": "ar-app-for-monuments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576690770089:android:51abb61b0d3f411b9999b8",
+        "android_client_info": {
+          "package_name": "com.techcruz.arappformonuments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576690770089-45lcspgfd1sanjev2cfovqku80c8in6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGPhwoFoiUDZevRd_7h4VfX1dwXHeVVGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576690770089-45lcspgfd1sanjev2cfovqku80c8in6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

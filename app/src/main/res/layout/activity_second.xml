@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/r1"
+
+    android:background="#C1BF91F8">
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="10dp"
+        android:id="@+id/arrow1"
+        android:background="@drawable/arrow1">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrow1"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="40dp"
+        android:id="@+id/hello_name"
+        android:text="\t\t\t\tHello Explorer !!">
+
+    </TextView>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/r1"
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/content_background"
+            android:drawableRight="@drawable/india_symbolreg"
+            android:fontFamily="@font/akaya_telivigala"
+            android:justificationMode="inter_word"
+            android:padding="25dp"
+            android:layout_centerVertical="true"
+            android:text="Have you ever desired to visit famous monuments?
+A monument is a particular kind of building that was made specifically to honour a person or an event, or that has acquired significance to a social group as a part of their memory of the past or cultural heritage,
+Let's explore our Indians' artistic creations!"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/second_startjourney"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_background"
+            android:fontFamily="@font/akaya_telivigala"
+            android:paddingTop="10dp"
+            android:text="\t\t\t\tStart journey !!!\t\t\t\t"
+            android:textSize="25dp">
+        </Button>
+
+</RelativeLayout>
+
+</RelativeLayout>
